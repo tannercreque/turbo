@@ -1,8 +1,41 @@
-.body {
-  width: 350px;
-  margin: auto;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.landing-logo {
-  width: 350px;
+body {
+  background-image: url("https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 10em;
+  margin: 5px;
+  padding: 5px;
+  background-image: url("images/turboImg.png");
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: bottom center;
+  text-align: center;
+}
+header nav {
+  text-decoration: underline;
+}
+
+h1.welcome-text {
+  padding: 0;
+  margin: 0;
+}
+.landing-form {
+  border: 5px solid black;
+  padding: 5px;
+  align-items: center;
+  height: 25em;
+  width: 10.5em;
+  font-family: fantasy;
+  color: red;
+  background-color: rgb(4, 31, 88);
+  margin: auto;
 }
