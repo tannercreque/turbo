@@ -5,12 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel "stylesheet" href "styles.css"></link>
+    <link rel="stylesheet" href="styles.css"></link>
     <script src="app.js" defer></script>
 </head>
-<body>
+<body class="body">
     <div class="login">
-        <img src ="placeholder logo" alt = "turbo-logo">
+        <h1 class="welcome-text">Hello fellow Turbine!!</h1>
+        <img src="images/turboImg.png" alt="turbo-logo" class="landing-logo">
+        <form action="submit" class="landing-form"><br>
+            <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Jeff"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Gordon"><br><br>
+                <label for="carname">Car Name:</label><br>
+                <input type="text" id="carname" name="carname" placeholder="Name your car"><br><br>
+                <label for="carMake">Car Make:</label><br>
+                <input type="text" id="carMake" name="carMake" placeholder="Make"><br><br>
+                <label for="carModel">Car Model:</label><br>
+                <input type="text" id="carModel" name="carModel" placeholder="Model"><br><br>
+                <label for="carimage">Car Image:</label><br>
+                <input type="file" id="carimage" name="carimage"><br><br>
+                <input type="submit" placeholder="Submit">
+        </form>
     </div>
 </body>
 </html>
