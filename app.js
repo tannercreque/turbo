@@ -1,9 +1,6 @@
-console.log("hey");
-
-const buttonTest = document.querySelector("button");
-console.log(buttonTest);
-buttonTest.addEventListener("click", redirect());
-
-function redirect() {
-  console.log("hey");
-}
+const buttonTest = document.querySelector(".landing-form");
+buttonTest.addEventListener("submit",(e) => {
+    e.preventDefault()
+    window.location.href= "indextwo.html"
+})
+    
