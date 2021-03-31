@@ -36,7 +36,7 @@ landingForm.addEventListener("submit", (e) => {
     dislikes: 0,
   };
   console.log(newCar);
-   window.location.href = "indextwo.html";
+  window.location.href = "indextwo.html";
 });
 
 function postNewUser(newUser) {
