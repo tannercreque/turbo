@@ -35,7 +35,7 @@ landingForm.addEventListener("submit", (e) => {
     likes: 0,
     dislikes: 0,
   };
-  console.log(newCar);
+  console.log(newUser);
   // window.location.href = "indextwo.html";
 });
 
@@ -48,7 +48,7 @@ function postNewUser(newUser) {
     },
     body: JSON.stringify(newUser),
   };
-  fetch(usersUrl, options);
+  fetch(usersUrl, options).then(console.log(Response()));
 }
 
 // fetch(usersUrl).then(parseResponse).then(postNewUser);
