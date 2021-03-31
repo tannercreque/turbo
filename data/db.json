@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Woofing those bugs away",
+      "lastName": 0,
+      "userImage": "./assets/coder-dog.png"
+    },
+    {
+      "firstName": "adfg",
+      "lastName": "asdf",
+      "userImage": "http://www.thisurl.com",
+      "id": 2
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "userId": 1,
+      "carName": "car name 1",
+      "carMake": "car make 1",
+      "carModel": "car model 1",
+      "carImage": "./assets/coder-dog.png",
+      "likes": 0,
+      "dislikes": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "carsId": 1,
+      "userId": 1,
+      "content": "What a cute dog!"
+    },
+    {
+      "id": 2,
+      "imageId": 1,
+      "userId": 1,
+      "content": "He's got a nose for bugs!"
+    },
+    {
+      "id": 3,
+      "imageId": 1,
+      "userId": 1,
+      "content": "Woof!"
+    }
+  ]
+}
