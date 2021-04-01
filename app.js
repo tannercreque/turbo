@@ -4,7 +4,6 @@ const commentsUrl = "http://localhost:3000/comments/";
 const landingForm = document.getElementById("landing-form");
 const parseResponse = (response) => response.json();
 
-
 landingForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -39,9 +38,8 @@ function postNewUser(newUser) {
     },
     body: JSON.stringify(newUser),
   };
-  fetch(usersUrl, options)
-
-  }
+  fetch(usersUrl, options);
+}
 
 // fetch(usersUrl).then(parseResponse).then(postNewUser);
 // fetch(carsUrl).then(parseResponse).then(postNewUser);

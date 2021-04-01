@@ -2,30 +2,55 @@
   "users": [
     {
       "id": 1,
-      "firstName": "Woofing those bugs away",
-      "lastName": 0,
-      "userImage": "./assets/coder-dog.png"
+      "firstName": "John",
+      "lastName": "doe",
+      "memberSince": 2025,
+      "carsPosted": 2,
+      "userImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Danny_DeVito_cropped_and_edited_for_brightness.jpg/1200px-Danny_DeVito_cropped_and_edited_for_brightness.jpg"
     }
-   
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "userId": 1,
+      "carName": "barbra Sue",
+      "carMake": "Nissan",
+      "carModel": "Sentra",
+      "carYear": "1776",
+      "carImage": "https://wallpaperaccess.com/full/2204951.jpg",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "carName": "betty go fast",
+      "carMake": "Kia",
+      "carModel": "Sorento",
+      "carYear": "1985",
+      "carImage": "https://www.carscoops.com/wp-content/uploads/2020/02/honda-nsx-na1-liberty-walk-tuning-1.jpeg",
+      "likes": 0,
+      "dislikes": 0
+    }
   ],
   "comments": [
     {
       "id": 1,
       "carsId": 1,
       "userId": 1,
-      "content": "What a cute dog!"
+      "content": "This ride is sick dude!!"
     },
     {
       "id": 2,
-      "imageId": 1,
+      "carsId": 1,
       "userId": 1,
-      "content": "He's got a nose for bugs!"
+      "content": "your spoiler is spoiling my day!"
     },
     {
       "id": 3,
-      "imageId": 1,
+      "carsId": 1,
       "userId": 1,
-      "content": "Woof!"
+      "content": "cute mountains"
     }
   ]
 }

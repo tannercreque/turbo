@@ -69,13 +69,13 @@ h1.welcome-text {
   display: flex;
   justify-content: center;
 }
-.car-image-container div{
+.car-image-container div {
   height: 350px;
 }
 .car-image-container {
   display: flex;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.2em;
   justify-content: center;
   background-image: url("https://cdn.motor1.com/images/mgl/gxGNw/s1/1999-nissan-skyline-gt-r-r34.jpg");
@@ -109,17 +109,17 @@ h1.welcome-text {
   width: 150px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.image-details {
+.car-detail {
   background-color: white;
 }
 /* .car-name {
     vertical-align: text-top;
   } */
- footer {
-    height: 5em;
-    margin: 5px;
-    padding: 5px;
-    background-repeat: no-repeat;
-    background-size: 350px;
-    background-position: bottom center;
+footer {
+  height: 5em;
+  margin: 5px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: bottom center;
 }
