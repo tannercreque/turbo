@@ -5,73 +5,8 @@
       "firstName": "Woofing those bugs away",
       "lastName": 0,
       "userImage": "./assets/coder-dog.png"
-    },
-    {
-      "firstName": "adfg",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 2
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 3
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 4
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 5
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 6
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "userImage": "http://www.thisurl.com",
-      "id": 7
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 8
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 9
-    },
-    {
-      "firstName": "asf",
-      "lastName": "asdf",
-      "userImage": "http://www.thisurl.com",
-      "id": 10
     }
-  ],
-  "cars": [
-    {
-      "id": 1,
-      "userId": 1,
-      "carName": "car name 1",
-      "carMake": "car make 1",
-      "carModel": "car model 1",
-      "carImage": "./assets/coder-dog.png",
-      "likes": 0,
-      "dislikes": 0
-    }
+   
   ],
   "comments": [
     {
