@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
     <title>TURBO: Where Cars Come To Play</title>
     <link rel="stylesheet" href="styles2.css"></link>
     <script src="apptwo.js" defer></script>
@@ -15,7 +16,7 @@
 <div class= "main-container"> 
 
 
-<div class="left-nav"><button class="down-shift" ><p>75 downshifts</p></button></div>
+<div class="left-nav"><button class="down-shift" ><p class="ds-text">75 downshifts</p></button></div>
 <div class="cars-container">
     <div class="car-image-container">  
         <div class="image-overlay">
@@ -41,10 +42,15 @@
         </tr>
     </table>
         Comments:<ul class="car-comments">
-            <li>comment 1</li>   
-            <li>comment 2</li>   
-            <li>comment 3</li>   
+            <li>comment 1</li>
+            <li>comment 2</li>
+            <li>comment 3</li>
         </ul>
+        <form class="comment-form">
+  <input type="text" id="comment" name="comment">
+  <input type="submit" value="Fuel the fire">
+  <br>
+</form>
     </div>
 </div>
 <div class="right-nav"><button class="turbo"><p class="turbo-text">75 Turbos</p></button></div>
