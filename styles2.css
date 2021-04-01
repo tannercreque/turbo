@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  height: 10em;
+  height: 5em;
   margin: 5px;
   padding: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -34,6 +34,10 @@ h1.welcome-text {
 }
 .car-image {
   max-width: 100%;
+  height: auto;
+}
+.left-nav img {
+  max-width: 50%;
   height: auto;
 }
 .right-nav img {
@@ -65,18 +69,25 @@ h1.welcome-text {
   display: flex;
   justify-content: center;
 }
+.car-image-container div{
+  height: 350px;
+}
 .car-image-container {
-  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-suabru-wrx-sti-mmp-1-1597760372.jpg");
-  background-size: contain;
+  display: flex;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  justify-content: center;
+  background-image: url("https://cdn.motor1.com/images/mgl/gxGNw/s1/1999-nissan-skyline-gt-r-r34.jpg");
+  background-size: cover;
   background-position: top;
-  height: 250px;
-  width: 300px;
   background-repeat: no-repeat;
 }
-
-.turbo {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWsEdl9DLaS6kcagQ5jk07VwMAilDsGGvViHDD7yL4ZgrQSpfrwW8kFqrcTENHOGPilHBaG8&usqp=CAc");
-  padding: 0;
+.down-shift {
+  background-image: url("images/downshift.png");
+  color: white;
+  font-size: 1.2em;
+  background-position: center;
   background-size: contain;
   display: flex;
   flex-direction: column-reverse;
@@ -85,16 +96,30 @@ h1.welcome-text {
   width: 150px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+.turbo {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWsEdl9DLaS6kcagQ5jk07VwMAilDsGGvViHDD7yL4ZgrQSpfrwW8kFqrcTENHOGPilHBaG8&usqp=CAc");
+  padding: 0;
+  color: whitesmoke;
+  font-size: 1.2em;
+  background-size: contain;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.image-details {
+  background-color: white;
+}
 /* .car-name {
     vertical-align: text-top;
   } */
-/* footer {
+ footer {
     height: 5em;
     margin: 5px;
     padding: 5px;
-    background-image: ("images/turbologo.png");
     background-repeat: no-repeat;
     background-size: 350px;
     background-position: bottom center;
-} */ ;
+}

@@ -4,15 +4,6 @@ const commentsUrl = "http://localhost:3000/comments/";
 const landingForm = document.getElementById("landing-form");
 const parseResponse = (response) => response.json();
 
-//grab highest index+1 of users for car to user tie through in POST
-function returnMaxIndex(maxIndex) {
-  fetch(usersUrl)
-    .then(parseResponse)
-    .then((data) => {
-      let maxIndex = ++data.length;
-    });
-  return maxIndex;
-}
 
 landingForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -48,8 +39,9 @@ function postNewUser(newUser) {
     },
     body: JSON.stringify(newUser),
   };
-  fetch(usersUrl, options).then(console.log(Response()));
-}
+  fetch(usersUrl, options)
+
+  }
 
 // fetch(usersUrl).then(parseResponse).then(postNewUser);
 // fetch(carsUrl).then(parseResponse).then(postNewUser);
