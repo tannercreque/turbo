@@ -75,7 +75,7 @@ function renderCarData(car) {
 }
 
 turboClick.addEventListener("click", () => {
-  // turboFlutter.play();
+  turboFlutter.play();
   let likesCount = parseInt($likesText.textContent);
   likesCount++;
   $likesText.textContent = likesCount + likesText;
@@ -111,13 +111,8 @@ function postNewComment(newComment) {
 }
 
 dsClick.addEventListener("click", () => {
-  // downShift.play();
+  downShift.play();
   let dislikesCount = parseInt($dislikesText.textContent);
   dislikesCount++;
   $dislikesText.textContent = dislikesCount + dislikesText;
 });
-
-function plusIndexNumber(indexNumber) {
-  ++indexNumber;
-  return indexNumber;
-}

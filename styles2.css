@@ -110,6 +110,7 @@ h1.welcome-text {
 }
 .car-detail {
   background-color: white;
+  border: 2px solid black;
 }
 /* .car-name {
     vertical-align: text-top;
@@ -121,4 +122,9 @@ footer {
   background-repeat: no-repeat;
   background-size: 350px;
   background-position: bottom center;
+}
+
+.user-detail {
+  border: 2px solid black;
+  text-align: center;
 }
